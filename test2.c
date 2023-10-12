@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<string.h>
-#include<stdlib.h>
 int main()
 {
 	int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -22,7 +21,7 @@ int main()
 			printf("%d", M);
 			break;
 		}
-		if (L >= R)
-			printf("没有你要找的数字\n");
+        if (L >= R) {
+        }
 	}
 }
